@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package xyz.klinker.giphy;
+package stream.customgiphy;
 
 import android.os.AsyncTask;
 import android.util.Log;

@@ -1,4 +1,4 @@
-package xyz.klinker.giphy;
+package stream.customgiphy;
 
 import android.app.Activity;
 import android.app.ProgressDialog;

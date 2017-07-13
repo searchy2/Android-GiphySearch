@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package xyz.klinker.giphy;
+package stream.customgiphy;
 
 import android.app.Activity;
 import android.content.Intent;

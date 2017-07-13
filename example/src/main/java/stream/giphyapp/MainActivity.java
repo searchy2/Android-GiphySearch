@@ -12,7 +12,7 @@
     limitations under the License.
  */
 
-package xyz.klinker.giphy_example;
+package stream.giphyapp;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -25,9 +25,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import xyz.klinker.giphy.Giphy;
+import stream.customgiphy.Giphy;
 
 public class MainActivity extends AppCompatActivity {
 
