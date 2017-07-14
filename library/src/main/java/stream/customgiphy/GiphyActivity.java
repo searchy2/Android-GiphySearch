@@ -198,3 +198,4 @@ public class GiphyActivity extends AppCompatActivity {
         imm.hideSoftInputFromWindow(searchView.getWindowToken(), 0);
     }
 }
+

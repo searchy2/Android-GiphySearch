@@ -28,7 +28,7 @@ import android.content.Intent;
  */
 public class Giphy {
 
-	public static final int REQUEST_GIPHY = 10012;
+    public static final int REQUEST_GIPHY = 10012;
     public static final int PREVIEW_SMALL = 0;
     public static final int PREVIEW_MEDIUM = 1;
     public static final int PREVIEW_LARGE = 2;
