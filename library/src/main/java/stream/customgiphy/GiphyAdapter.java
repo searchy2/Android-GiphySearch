@@ -70,8 +70,8 @@ public class GiphyAdapter extends RecyclerView.Adapter<GiphyAdapter.GifViewHolde
 
         GifViewHolder(View itemView) {
             super(itemView);
-            gifIv = (ImageView) itemView.findViewById(R.id.gif);
-            gifPreview = (ImageView) itemView.findViewById(R.id.gifpreview);
+            gifIv = itemView.findViewById(R.id.gif);
+            gifPreview = itemView.findViewById(R.id.gifpreview);
         }
 
         private void bind(final GiphyApiHelper.Gif gif) {

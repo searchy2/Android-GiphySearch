@@ -72,10 +72,10 @@ public class GiphyActivity extends AppCompatActivity {
 
         setContentView(R.layout.giffy_search_activity);
 
-        recycler = (RecyclerView) findViewById(R.id.recycler_view);
+        recycler = findViewById(R.id.recycler_view);
         progressSpinner = findViewById(R.id.list_progress);
 
-        searchView = (MaterialSearchView) findViewById(R.id.search_view);
+        searchView = findViewById(R.id.search_view);
         searchView.setVoiceSearch(false);
 
         searchView.setOnQueryTextListener(new MaterialSearchView.OnQueryTextListener() {
